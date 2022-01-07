@@ -1,0 +1,89 @@
+.menu {
+  background-color: #24344b;
+  position: absolute;
+  height: 100vh;
+  width: 220px;
+  color: #eee;
+}
+.menu .menu-logo {
+  height: 48px;
+  width: 100%;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.menu .menu-logo .logo-site {
+  display: flex;
+  align-items: center;
+}
+.menu .menu-logo .logo-site .logo-site-icon {
+  width: 36px;
+  height: 36px;
+  margin-right: 8px;
+}
+.menu .menu-logo .logo-site .logo-site-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+.menu .menu-logo .toggle-btn {
+  width: 40px;
+  height: 48px;
+}
+
+.menu .menu-content {
+  width: 100%;
+  height: calc(100% - 48px);
+  box-sizing: border-box;
+  border-right: 1px solid #e5e5e5;
+}
+
+.menu .menu-content .menu-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #c8c8c8;
+  height: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  border-left: 4px solid transparent;
+  margin-bottom: 6px;
+}
+
+.menu .menu-content .menu-item:hover {
+  background-color: #404f64;
+}
+
+.menu-item .menu-item-icon {
+  width: 46px;
+  height: 40px;
+}
+
+.menu .menu-content .menu-item.router-link-active {
+  color: #0dd469;
+  background-color: #404f64;
+  border-left-color: #0dd469;
+  font-weight: bold;
+}
+
+.submenu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  background-color: #404f64;
+  width: 100%;
+  padding: 24px;
+  cursor: pointer;
+}
+
+.submenu-item {
+  height: 40px;
+  cursor: pointer;
+  /* text-decoration: none; */
+  display: block;
+  /* line-height: 40px; */
+  color: #ffffff;
+  position: relative;
+}

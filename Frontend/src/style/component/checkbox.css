@@ -1,0 +1,42 @@
+.checkbox-container {
+  position: relative;
+  min-width: 20px !important;
+  min-height: 20px !important;
+}
+
+.checkbox {
+  opacity: 0;
+  margin: 0;
+  width: 20px;
+}
+
+.checkbox:focus + .checkmark {
+  background-image: url('../../assets/Icons/ic_Checkbox_Hover.png');
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* transform: translateY(50%); */
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url('../../assets/Icons/ic_Checkbox_Inactive.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+
+.checkmark:hover {
+  background-image: url('../../assets/Icons/ic_Checkbox_Hover.png');
+}
+
+.checkbox:checked + .checkmark {
+  background-image: url('../../assets/Icons/ic_Checkbox_Active.png');
+}
+
+.checkbox-label {
+  margin-left: 10px;
+  cursor: pointer;
+}

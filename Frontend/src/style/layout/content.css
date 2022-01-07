@@ -1,0 +1,11 @@
+.content {
+  position: absolute;
+  top: 49px;
+  bottom: 0;
+  left: 221px;
+  right: 0;
+  height: calc(100vh -49px);
+  padding: 16px;
+  box-sizing: border-box;
+  /* min-width: 1024px; */
+}

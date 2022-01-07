@@ -1,0 +1,74 @@
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 16px;
+  box-shadow: 0px 1px 4px -1px #ccc;
+}
+
+.header ul {
+  padding: 0;
+}
+
+.header .header-title span {
+  font-family: 'Open Sans-Semibold';
+}
+
+.header .header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header .header-right .header-item {
+  cursor: pointer;
+}
+
+.header .header-title span {
+  margin: 0;
+  margin-right: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header .header-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.header .header-right li:not(:first-child) {
+  margin-left: 16px;
+  font-size: 13px;
+}
+
+.header .header-item {
+  display: flex;
+  align-items: center;
+}
+
+.header .header-seperate {
+  width: 1px;
+  height: 32px;
+  background-color: #ccc;
+}
+
+.header .header-icon-notification {
+  width: 32px;
+  height: 32px;
+}
+
+.header .header-icon-angle {
+  width: 32px;
+  height: 32px;
+}
+
+.header .header-user-avatar {
+  width: 40px;
+  height: 40px;
+}

@@ -1,0 +1,67 @@
+.m-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #03ae66;
+  border-radius: 4px;
+  height: 32px;
+  font-size: 13px;
+  color: #fff;
+  padding: 0 12px;
+  text-align: center;
+  border: none;
+  min-width: 96px;
+  cursor: pointer;
+  outline: 1px solid #03ae66;
+}
+
+.m-btn:hover {
+  background-color: #02bf70;
+}
+
+.m-btn:active {
+  background-color: #01b075;
+}
+
+.m-btn-has-icon {
+  padding: 16px;
+}
+
+.m-btn-icon-16 {
+  width: 16px;
+  height: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 8px;
+}
+
+.m-second-btn {
+  height: 32px;
+  padding: 0 12px;
+  border: 1px solid #cecece;
+  color: #3d3f4e;
+  background-color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+}
+
+.m-second-btn:hover {
+  background-color: #eaecef;
+}
+
+.m-btn-icon {
+  height: 32px;
+  width: 32px;
+  border-radius: 4px;
+  border: 1px solid #cecece;
+  color: #3d3f4e;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.m-btn-icon:hover {
+  background-color: #f8f8f8;
+}

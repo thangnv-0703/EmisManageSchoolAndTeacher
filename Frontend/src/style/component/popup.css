@@ -1,0 +1,76 @@
+.m-popup-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.1;
+  z-index: 99;
+}
+.m-popup-container {
+  width: 400px;
+  min-height: 120px;
+  border: 1px solid #ccc;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  z-index: 100;
+  background-color: #fff;
+}
+
+.m-popup-container .m-popup-header {
+  padding: 12px 24px;
+  background-color: #fff;
+  border-radius: 4px 4px 0 0;
+}
+
+.m-popup-container .m-popup-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+.m-popup-header .m-popup-btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-image: url('../../assets/Icons/ic_X_2.png');
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: center;
+  border-radius: 0 4px 0 4px;
+  cursor: pointer;
+}
+
+/* .m-popup-header .m-popup-btn-close:hover {
+  background-color: #e5e5e5;
+} */
+
+.m-popup-container .m-popup-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.m-popup-container .m-popup-body p {
+  margin: 0;
+}
+
+.m-popup-container .m-popup-footer {
+  /* background-color: #e5e5e5; */
+  padding: 24px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+}
+
+.m-popup-container .m-popup-footer button + button {
+  margin-left: 10px;
+}

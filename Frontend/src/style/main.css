@@ -1,0 +1,101 @@
+@import url('./component/icon.css');
+@import url('./component/combobox.css');
+@import url('./component/button.css');
+@import url('./component/input.css');
+@import url('./component/table.css');
+@import url('./component/checkbox.css');
+@import url('./component/popup.css');
+@import url('./component/toast.css');
+@import url('./component/tooltip.css');
+@import url('../assets/Fonts/fontawesome-5.15.1/css/all.min.css');
+@import url('../assets/Fonts/fontawesome-5.15.1/css/fontawesome.min.css');
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../assets/Fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans-Bold';
+  src: url('../assets/Fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans-Semibold';
+  src: url('../assets/Fonts/OpenSans-Semibold.ttf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, Tahoma, Arial, sans-serif;
+  font-size: 13px;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.m-row {
+  display: flex;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+.mt-10 {
+  margin-top: 5px;
+}
+
+.m-required {
+  color: #fa3939;
+}
+
+.form-label {
+  width: 120px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 5px !important;
+  height: 10px !important;
+  z-index: 1231232123421;
+}
+
+::-webkit-scrollbar-track {
+  width: 6px;
+  background-color: #bbb;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #808080;
+  border-radius: 8px;
+}
