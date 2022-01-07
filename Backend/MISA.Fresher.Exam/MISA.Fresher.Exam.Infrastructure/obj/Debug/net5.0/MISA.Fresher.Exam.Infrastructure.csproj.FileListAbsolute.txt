@@ -1,0 +1,15 @@
+F:\MISA\BaiTapGD1\Backend\MISA.Fresher.Exam\MISA.Fresher.Exam.Infrastructure\bin\Debug\net5.0\MISA.Fresher.Exam.Infrastructure.deps.json
+F:\MISA\BaiTapGD1\Backend\MISA.Fresher.Exam\MISA.Fresher.Exam.Infrastructure\bin\Debug\net5.0\MISA.Fresher.Exam.Infrastructure.dll
+F:\MISA\BaiTapGD1\Backend\MISA.Fresher.Exam\MISA.Fresher.Exam.Infrastructure\bin\Debug\net5.0\ref\MISA.Fresher.Exam.Infrastructure.dll
+F:\MISA\BaiTapGD1\Backend\MISA.Fresher.Exam\MISA.Fresher.Exam.Infrastructure\bin\Debug\net5.0\MISA.Fresher.Exam.Infrastructure.pdb
+F:\MISA\BaiTapGD1\Backend\MISA.Fresher.Exam\MISA.Fresher.Exam.Infrastructure\bin\Debug\net5.0\MISA.Fresher.Exam.Core.dll
+F:\MISA\BaiTapGD1\Backend\MISA.Fresher.Exam\MISA.Fresher.Exam.Infrastructure\bin\Debug\net5.0\MISA.Fresher.Exam.Core.pdb
+F:\MISA\BaiTapGD1\Backend\MISA.Fresher.Exam\MISA.Fresher.Exam.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Exam.Infrastructure.csproj.AssemblyReference.cache
+F:\MISA\BaiTapGD1\Backend\MISA.Fresher.Exam\MISA.Fresher.Exam.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Exam.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\MISA\BaiTapGD1\Backend\MISA.Fresher.Exam\MISA.Fresher.Exam.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Exam.Infrastructure.AssemblyInfoInputs.cache
+F:\MISA\BaiTapGD1\Backend\MISA.Fresher.Exam\MISA.Fresher.Exam.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Exam.Infrastructure.AssemblyInfo.cs
+F:\MISA\BaiTapGD1\Backend\MISA.Fresher.Exam\MISA.Fresher.Exam.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Exam.Infrastructure.csproj.CoreCompileInputs.cache
+F:\MISA\BaiTapGD1\Backend\MISA.Fresher.Exam\MISA.Fresher.Exam.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Exam.Infrastructure.csproj.CopyComplete
+F:\MISA\BaiTapGD1\Backend\MISA.Fresher.Exam\MISA.Fresher.Exam.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Exam.Infrastructure.dll
+F:\MISA\BaiTapGD1\Backend\MISA.Fresher.Exam\MISA.Fresher.Exam.Infrastructure\obj\Debug\net5.0\ref\MISA.Fresher.Exam.Infrastructure.dll
+F:\MISA\BaiTapGD1\Backend\MISA.Fresher.Exam\MISA.Fresher.Exam.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Exam.Infrastructure.pdb

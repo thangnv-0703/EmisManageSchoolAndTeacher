@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISA.Fresher.Exam.Api", "MISA.Fresher.Exam.Api\MISA.Fresher.Exam.Api.csproj", "{C487D47D-09F0-4FBC-BF55-B592BEF93100}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1DC4B82A-6BB1-4295-B775-9B4BC77D8B1F} = {1DC4B82A-6BB1-4295-B775-9B4BC77D8B1F}
+		{827D35D2-5AF6-4AF4-A87F-BBFF7A255CBB} = {827D35D2-5AF6-4AF4-A87F-BBFF7A255CBB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISA.Fresher.Exam.Core", "MISA.Fresher.Exam.Core\MISA.Fresher.Exam.Core.csproj", "{1DC4B82A-6BB1-4295-B775-9B4BC77D8B1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISA.Fresher.Exam.Infrastructure", "MISA.Fresher.Exam.Infrastructure\MISA.Fresher.Exam.Infrastructure.csproj", "{827D35D2-5AF6-4AF4-A87F-BBFF7A255CBB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1DC4B82A-6BB1-4295-B775-9B4BC77D8B1F} = {1DC4B82A-6BB1-4295-B775-9B4BC77D8B1F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C487D47D-09F0-4FBC-BF55-B592BEF93100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C487D47D-09F0-4FBC-BF55-B592BEF93100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C487D47D-09F0-4FBC-BF55-B592BEF93100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C487D47D-09F0-4FBC-BF55-B592BEF93100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC4B82A-6BB1-4295-B775-9B4BC77D8B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC4B82A-6BB1-4295-B775-9B4BC77D8B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC4B82A-6BB1-4295-B775-9B4BC77D8B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC4B82A-6BB1-4295-B775-9B4BC77D8B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{827D35D2-5AF6-4AF4-A87F-BBFF7A255CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827D35D2-5AF6-4AF4-A87F-BBFF7A255CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827D35D2-5AF6-4AF4-A87F-BBFF7A255CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827D35D2-5AF6-4AF4-A87F-BBFF7A255CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA879F80-FC55-447C-96AB-518E9DB6B8C3}
+	EndGlobalSection
+EndGlobal
